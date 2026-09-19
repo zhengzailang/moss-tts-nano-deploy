@@ -7,6 +7,16 @@ description: "一键在本地部署复旦 OpenMOSS MOSS-TTS-Nano 语音合成（
 
 给 AI 执行者的部署手册。用户说"部署 MOSS-TTS-Nano / 装 TTS / moss-tts-nano 装这台电脑上"时按本技能执行。
 
+## 在线获取本技能（2026-09-20 已发布 GitHub）
+
+```bash
+git clone https://github.com/zhengzailang/moss-tts-nano-deploy.git
+cd moss-tts-nano-deploy
+python scripts/deploy.py
+```
+
+裸电脑无需 WorkBuddy，有 Python + git 即可。
+
 ## 部署步骤（全部可交给 scripts/deploy.py 自动完成）
 
 ```bash
